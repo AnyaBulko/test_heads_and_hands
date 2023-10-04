@@ -4,7 +4,6 @@ import java.util.Random;
 
 
 public abstract class Creature {
-
     static final int MIN_NUMBER_FOR_SUCCESS = 5;
     public static final int MAX_ALLOWED_HEALTH = 100;
     public static final int MAX_ALLOWED_DAMAGE_PARAMETER = 30;

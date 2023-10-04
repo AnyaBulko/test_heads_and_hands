@@ -19,7 +19,6 @@ public class GameFrame extends JFrame implements ActionListener {
     public Monster selectedMonster;
 
     public GameFrame() {
-
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(FRAME_WIDTH, FRAME_HEIGHT);
         setResizable(false);
@@ -32,7 +31,6 @@ public class GameFrame extends JFrame implements ActionListener {
 
         createPlayerPanel = new CreatePlayerPanel();
         add(createPlayerPanel);
-
         createPlayerPanel.createPlayerButton.addActionListener(this);
 
         setVisible(true);
@@ -79,7 +77,6 @@ public class GameFrame extends JFrame implements ActionListener {
                     fightPanel.healButton.addActionListener(this);
                     break;
                 }
-
         }
 
         // Обработка кнопки "Атаковать"

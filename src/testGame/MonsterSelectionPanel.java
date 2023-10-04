@@ -8,7 +8,6 @@ import java.awt.*;
 import java.util.Random;
 
 public class MonsterSelectionPanel extends JPanel {
-
     private final static int PANEL_WIDTH = GameFrame.FRAME_WIDTH - 15;
     public final static int NUMBER_OF_RATS = 3;
     public final static int IMAGE_SIZE = PANEL_WIDTH / NUMBER_OF_RATS;
@@ -97,8 +96,8 @@ public class MonsterSelectionPanel extends JPanel {
 
     // Выводим параметры персонажа, который был создан
     private void createCharacterParametersPanel() {
-        JPanel characterParametersPanel = new JPanel(); // вынести?
-        // if null
+        JPanel characterParametersPanel = new JPanel();
+
         String characterParameters = String.format(
                 "<html>" +
                         "    <b>Текущие параметры персонажа</b>" +
