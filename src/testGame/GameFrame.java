@@ -26,7 +26,6 @@ public class GameFrame extends JFrame implements ActionListener {
         ImageIcon imageIcon = new ImageIcon("cat.png");
         setIconImage(imageIcon.getImage());
 
-        getContentPane().setBackground(new Color(230, 230, 250));
         setLayout(null);
 
         createPlayerPanel = new CreatePlayerPanel();
